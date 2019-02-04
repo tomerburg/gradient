@@ -1,6 +1,6 @@
 from distutils.core import setup
-setup(name='setup',
+setup(name='gradient',
       version='1.0',
       author='Tomer Burg',
-      packages=['setup'],
+      packages=['gradient'],
 )
