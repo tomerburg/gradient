@@ -14,11 +14,13 @@ python setup.py install
 First, create an instance of the gradient class that stores the data used to create the color map. Input parameters are as many ranges as desired, which work as follows:
 
 ```python
-obj = gradient([['#00FFFF',25.0],['#0000FF',29.0]],
+from gradient import Gradient
+obj = Gradient([['#00FFFF',25.0],['#0000FF',29.0]],
                [['#0000FF',29.0],['#0000AA',32.0]],
                [['#0000AA',32.0],['#FF00FF',38.0]])
                
 #[['#00FFFF',25.0],['#0000FF',29.0]] is the first range: start with #00FFFF at a value of 25 and end at #0000FF at a value of 29.
+#Note that you can also pass an RGB tuple instead of a hex string.
 ```
 
 Create a range of levels going from 25 to 39 with an increment of 0.5:
