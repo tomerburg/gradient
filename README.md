@@ -4,7 +4,7 @@ Creates a color gradient mapped to a range of numerical values.
 ## Installation
 
 ```
-git clone https://github.com/tb1516/gradient
+git clone https://github.com/tomerburg/gradient
 cd gradient
 python setup.py install
 ```
